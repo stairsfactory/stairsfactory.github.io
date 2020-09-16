@@ -328,7 +328,7 @@ nav {
     position: absolute;
     text-align: left;
     width: 100%;
-    bottom: 0;
+    bottom: 10px;
     left: 0;
 }
 
