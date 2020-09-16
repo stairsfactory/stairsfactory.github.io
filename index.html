@@ -396,14 +396,9 @@
     <script src="js/main.js"></script>
 
     <script>
-        var userAgent = window.navigator.userAgent;
-
-        if ((userAgent.match(/iPad/i) || userAgent.match(/iPhone/i)) && navigator.userAgent.match(/AppleWebKit/i)) {
+        if (window.outerWidth === 0) {
             document.getElementById("safari_only").style.marginTop = "-15px";
-        }
-        else {
-            // Anything else
-        }
+        } 
     </script>
 
 </body>
