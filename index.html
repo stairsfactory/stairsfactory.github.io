@@ -23,11 +23,14 @@
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <style>
-        _::-webkit-full-page-media,
-        _:future,
-        :root .safari_only {
-            margin-top: -30px;
+        @media not all and (min-resolution:.001dpcm) {
+            @media {
+                .safari_only {
+                    margin-top: -25px;
+                }
+            }
         }
+
 
         @media (min-width : 721px) {
             #concrete {
