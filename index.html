@@ -396,7 +396,11 @@
     <script src="js/main.js"></script>
 
     <script>
-        if (window.outerWidth === 0) {
+        var ua = window.navigator.userAgent;
+        var iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i);
+        var webkit = !!ua.match(/WebKit/i);
+        var iOSSafari = iOS && webkit && !ua.match(/CriOS/i);
+        if (iOSSafari) {
             document.getElementById("safari_only").style.marginTop = "-15px";
         } 
     </script>
