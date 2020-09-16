@@ -23,6 +23,12 @@
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <style>
+        _::-webkit-full-page-media,
+        _:future,
+        :root .safari_only {
+            margin-top: -30px;
+        }
+
         @media (min-width : 721px) {
             #concrete {
                 margin-left: 31px;
@@ -112,7 +118,7 @@
             border-bottom-right-radius: 112%;
             border-color: black;
             border-bottom-left-radius: 100%;">
-                <h3 style="color:white;"><em>Call</em> (514) 264 0478</h3>
+                <h3 class="safari_only" style="color:white;"><em>Call</em> (514) 264 0478</h3>
             </div>
         </div>
         <span></span>
