@@ -8,7 +8,7 @@
     <meta name="description"
         content="Get the cheapest price for any kind of concrete work, french drain installation, foundation repair and mini excavation with high quality here!">
     <meta name="keywords"
-        content="Contractor, Concrete, Balcony, Stairs, Wall, Sidewalk, French Drain, Foundation Repair, Mini excavation">
+        content="Contractor, Concrete, Balcony, Stairs, Wall, Sidewalk, French Drain, Foundation Repair, Mini excavation, Galvanized drain box">
     <meta name="author" content="Harry Design">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -89,10 +89,63 @@
                 }
             }
         }
+
+        * {
+            box-sizing: border-box
+        }
+
+        .mySlides1,
+        .mySlides2,
+        .mySlides3,
+        .mySlides4,
+        .mySlides5 {
+            display: none
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a grey background color */
+        .prev:hover,
+        .next:hover {
+            background-color: #f1f1f1;
+            color: black;
+        }
     </style>
 </head>
 
-<body>
+<body style="background-color:#313131;">
 
     <nav style="background-color:black;">
         <div class="logo">
@@ -119,7 +172,129 @@
         </div>
     </nav>
 
-    <div style="margin-top: 4vw;" class="full-screen-portfolio" id="portfolio">
+    <div style="margin-top: 12vh;" class="full-screen-portfolio" id="portfolio">
+
+        <div class="slideshow-container">
+            <div onclick="plusSlides(1, 0)" class="mySlides1">
+                <img src="img/imgs/concreteBalcony/14.jpeg" style="width:100%">
+            </div>
+
+            <div onclick="plusSlides(1, 0)" class="mySlides1">
+                <img src="img/imgs/concreteBalcony/1.jpeg" style="width:100%">
+            </div>
+
+            <div onclick="plusSlides(1, 0)" class="mySlides1">
+                <img src="img/imgs/concreteBalcony/10.jpeg" style="width:100%">
+            </div>
+
+            <div onclick="plusSlides(1, 0)" class="mySlides1">
+                <img src="img/imgs/concreteBalcony/11.jpeg" style="width:100%">
+            </div>
+
+            <div onclick="plusSlides(1, 0)" class="mySlides1">
+                <img src="img/imgs/concreteBalcony/12.jpeg" style="width:100%">
+            </div>
+
+            <div onclick="plusSlides(1, 0)" class="mySlides1">
+                <img src="img/imgs/concreteBalcony/13.jpeg" style="width:100%">
+            </div>
+
+            <div onclick="plusSlides(1, 0)" class="mySlides1">
+                <img src="img/imgs/concreteBalcony/2.jpeg" style="width:100%">
+            </div>
+
+            <div onclick="plusSlides(1, 0)" class="mySlides1">
+                <img src="img/imgs/concreteBalcony/3.jpeg" style="width:100%">
+            </div>
+
+            <div onclick="plusSlides(1, 0)" class="mySlides1">
+                <img src="img/imgs/concreteBalcony/4.jpeg" style="width:100%">
+            </div>
+
+            <div onclick="plusSlides(1, 0)" class="mySlides1">
+                <img src="img/imgs/concreteBalcony/5-s.jpeg" style="width:100%">
+            </div>
+
+            <div onclick="plusSlides(1, 0)" class="mySlides1">
+                <img src="img/imgs/concreteBalcony/6-s.jpeg" style="width:100%">
+            </div>
+
+            <div onclick="plusSlides(1, 0)" class="mySlides1">
+                <img src="img/imgs/concreteBalcony/7.jpeg" style="width:100%">
+            </div>
+
+            <div onclick="plusSlides(1, 0)" class="mySlides1">
+                <img src="img/imgs/concreteBalcony/9.jpeg" style="width:100%">
+            </div>
+
+            <div style="position:absolute;color:white;bottom:0px;left:5px;text-shadow: 2px 2px black">
+                <h4>Concrete Balcony</h4>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+        <br>
+        <div class="slideshow-container">
+            <div onclick="plusSlides(1, 1)" class="mySlides2">
+                <img src="img/imgs/foundationRepair/1.jpg" style="width:100%">
+            </div>
+
+            <div onclick="plusSlides(1, 1)" class="mySlides2">
+                <img src="img/imgs/foundationRepair/2.jpg" style="width:100%">
+            </div>
+
+            <div style="position:absolute;color:white;bottom:0px;left:5px;text-shadow: 2px 2px black">
+                <h4>Foundation Repair</h4>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+        </div>
+        <br>
+        <div class="slideshow-container">
+            <div onclick="plusSlides(1, 2)" class="mySlides3">
+                <img src="img/imgs/frenchdrain/1.jpg" style="width:100%">
+            </div>
+
+            <div style="position:absolute;color:white;bottom:0px;left:5px;text-shadow: 2px 2px black">
+                <h4>French Drain</h4>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+        </div>
+        <br>
+        <div class="slideshow-container">
+            <div onclick="plusSlides(1, 3)" class="mySlides4">
+                <img src="img/imgs/miniExcavation/1.jpg" style="width:100%">
+            </div>
+            <div style="position:absolute;color:white;bottom:0px;left:5px;text-shadow: 2px 2px black">
+                <h4>Mini Excavation</h4>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+        </div>
+        <br>
+        <div class="slideshow-container">
+            <div onclick="plusSlides(1, 4)" class="mySlides5">
+                <img src="img/imgs/galvanizedDrainBox/1.jpeg" style="width:100%">
+            </div>
+            <div onclick="plusSlides(1, 4)" class="mySlides5">
+                <img src="img/imgs/galvanizedDrainBox/2.jpeg" style="width:100%">
+            </div>
+            <div onclick="plusSlides(1, 4)" class="mySlides5">
+                <img src="img/imgs/galvanizedDrainBox/3.jpeg" style="width:100%">
+            </div>
+            <div style="position:absolute;color:white;bottom:0px;left:5px;text-shadow: 2px 2px black">
+                <h4>Galvanized Drain Box</h4>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+        </div>
+        <!--
         <div class="container-fluid">
             <div class="col-md-4 col-sm-6">
                 <div class="portfolio-item">
@@ -325,7 +500,7 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 
 
@@ -384,7 +559,30 @@
     </div>
 
 
+    <script>
+        var slideIndex = [1, 1, 1, 1, 1];
+        var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4","mySlides5"]
+        showSlides(1, 0);
+        showSlides(1, 1);
+        showSlides(1, 2);
+        showSlides(1, 3);
+        showSlides(1, 4);
 
+        function plusSlides(n, no) {
+            showSlides(slideIndex[no] += n, no);
+        }
+
+        function showSlides(n, no) {
+            var i;
+            var x = document.getElementsByClassName(slideId[no]);
+            if (n > x.length) { slideIndex[no] = 1 }
+            if (n < 1) { slideIndex[no] = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex[no] - 1].style.display = "block";
+        }
+    </script>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
