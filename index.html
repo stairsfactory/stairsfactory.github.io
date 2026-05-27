@@ -61,13 +61,13 @@
                 left: 0px !important;
                 right: 0px !important;
                 bottom: 0px !important;
-                margin-top: 105px;
+                /* margin-top: 105px; */
             }
 
             #call {
                 width: 325px;
                 height: 70px;
-                top: 0px !important;
+                top: 15px !important;
                 left: 0px !important;
                 right: 0px !important;
                 bottom: 0px !important;
@@ -149,7 +149,7 @@
 
     <nav style="background-color:black;">
         <div class="logo">
-            <a id="concrete" href="index.html">Harry<em>Design.ca</em></a>
+            <a style="font-size: 130%;" id="concrete" href="index.html">20 Years <em>Of Experience</em></a>
             <small id="listOfWork" style="color:white;margin-left:50px;position:absolute;top:33px;"><em> Balcony |
                     Stairs | Walls | Sidewalk | French Drain | Foundation Repair | Mini-Excavation </em></small>
             <small id="email"
@@ -165,7 +165,8 @@
             border-bottom-right-radius: 112%;
             border-color: black;
             border-bottom-left-radius: 100%;">
-                <h3 id="safari_only" style="color:white;"><em>Call</em> (514) 264 0478</h3>
+                <b id="safari_only" style="color:white;display: block;"><em>Call</em> (514) 264 0478 (EN)</b>
+                <b id="safari_only" style="color:white;"><em>Appelez</em> (514) 617 5224 (FR)</b>
             </div>
         </div>
         <span></span>
@@ -173,7 +174,43 @@
     </nav>
 
     <div style="margin-top: 12vh;" class="full-screen-portfolio" id="portfolio">
+        <div class="slideshow-container">
+            <div onclick="plusSlides(1, 2)" class="mySlides3">
+                <img src="img/imgs/frenchdrain/4.jpg" style="width:100%">
+            </div>
 
+            <div onclick="plusSlides(1, 2)" class="mySlides3">
+                <img src="img/imgs/frenchdrain/1.jpg" style="width:100%">
+            </div>
+
+            <div onclick="plusSlides(1, 2)" class="mySlides3">
+                <img src="img/imgs/frenchdrain/2.jpg" style="width:100%">
+            </div>
+
+            <div onclick="plusSlides(1, 2)" class="mySlides3">
+                <img src="img/imgs/frenchdrain/3.jpg" style="width:100%">
+            </div>
+
+            <div onclick="plusSlides(1, 2)" class="mySlides3">
+                <img src="img/imgs/frenchdrain/5.jpg" style="width:100%">
+            </div>
+
+            <div onclick="plusSlides(1, 2)" class="mySlides3">
+                <img src="img/imgs/frenchdrain/6.jpg" style="width:100%">
+            </div>
+
+            <div onclick="plusSlides(1, 2)" class="mySlides3">
+                <img src="img/imgs/frenchdrain/7.jpg" style="width:100%">
+            </div>
+
+            <div style="position:absolute;color:white;bottom:0px;left:5px;text-shadow: 2px 2px black">
+                <h4>French Drain</h4>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+        </div>
+        <br>
         <div class="slideshow-container">
             <div onclick="plusSlides(1, 0)" class="mySlides1">
                 <img src="img/imgs/concreteBalcony/14.jpeg" style="width:100%">
@@ -254,43 +291,6 @@
 
             <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-        </div>
-        <br>
-        <div class="slideshow-container">
-            <div onclick="plusSlides(1, 2)" class="mySlides3">
-                <img src="img/imgs/frenchdrain/4.jpg" style="width:100%">
-            </div>
-
-            <div onclick="plusSlides(1, 2)" class="mySlides3">
-                <img src="img/imgs/frenchdrain/1.jpg" style="width:100%">
-            </div>
-
-            <div onclick="plusSlides(1, 2)" class="mySlides3">
-                <img src="img/imgs/frenchdrain/2.jpg" style="width:100%">
-            </div>
-
-            <div onclick="plusSlides(1, 2)" class="mySlides3">
-                <img src="img/imgs/frenchdrain/3.jpg" style="width:100%">
-            </div>
-
-            <div onclick="plusSlides(1, 2)" class="mySlides3">
-                <img src="img/imgs/frenchdrain/5.jpg" style="width:100%">
-            </div>
-
-            <div onclick="plusSlides(1, 2)" class="mySlides3">
-                <img src="img/imgs/frenchdrain/6.jpg" style="width:100%">
-            </div>
-
-            <div onclick="plusSlides(1, 2)" class="mySlides3">
-                <img src="img/imgs/frenchdrain/7.jpg" style="width:100%">
-            </div>
-
-            <div style="position:absolute;color:white;bottom:0px;left:5px;text-shadow: 2px 2px black">
-                <h4>French Drain</h4>
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
         </div>
         <br>
         <div class="slideshow-container">
@@ -540,7 +540,7 @@
     <footer>
         <div class="container-fluid">
             <div class="col-md-12">
-                <p>Copyright &copy; 2020 HarryDesign.ca
+                <p>Copyright &copy; 2026
 
                 </p>
             </div>
@@ -594,7 +594,7 @@
 
     <script>
         var slideIndex = [1, 1, 1, 1, 1];
-        var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4","mySlides5"]
+        var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5"]
         showSlides(1, 0);
         showSlides(1, 1);
         showSlides(1, 2);
